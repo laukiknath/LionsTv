@@ -1,0 +1,34 @@
+.container{
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 10vh auto;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px grey;
+}
+.error{
+    font-size: 0.8rem;
+    color: red;
+    text-align: center;
+    vertical-align:super;
+    font-weight: bold;
+}
+.recover{
+    text-align: right;
+    font-size: 0.7rem;
+    margin: 0.3rem 1.4rem 0 0;
+}
+.recover a{
+    text-decoration: none;
+    color: rgb(103, 172, 172);
+}
+.register{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: rgb(117, 162, 163);
+}
+.register a{
+    color: red;
+    text-decoration: none;
+}

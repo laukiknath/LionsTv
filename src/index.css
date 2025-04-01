@@ -1,13 +1,221 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: url('./images/bg1.jpg'); 
+  background-size: contain;
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center;
+}
+#coloryellow{
+  background-color: black;
+}
+#coloryellow a{
+  color: white;
+}
+
+#coloryellow a:hover{
+  color: yellow;
+  background-color: rgba(255, 255, 255, .3);
+}
+
+body {
+  background-repeat: repeat;
+  background-position: fixed;
+  background-size: cover;
+}
+
+#search1 {
+  width: 97%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, .9);
+  color: white;
+  text-align: center;
+  font-family: Courier;
+}
+#footer1{
+  background-color: rgba(255, 255, 255, .3);
+}
+
+#search2 {
+  height: 30px;
+}
+
+#search2:hover {
+  background-color: rgba(255, 255, 255, .3);
+}
+
+#div3 {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.label1 div {
+  display: inline;
+  color: white;
+  padding: .5em;
+
+}
+
+.label1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.size3{
+  margin-left: 25%;
+}
+.size2 a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1rem;
+
+}
+
+.move{
+  display: inline;
+}
+.movie{
+  height: 10vh;
+  width: 10%;
+  display: inline;
+}
+
+.footer2{
+  background-color: rgba(255, 255, 255, .1);
+  
+}
+.footer2 a{
+  text-decoration: none;
+  color: black;
+}
+
+.box{
+  background-color: aqua;
+  height: 40%;
+  width: 20%;
+}
+p{
+  height: 100%;
+}
+.margin1{
+ margin-left:4%;
+}
+.card a{
+  height: auto;
+  width: auto;
+}
+
+#active2{
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.whitecolor{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+#newslater{
+  margin-top: 100px;
+}
+#newslater h3{
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.input{
+  margin-top: 30px;
+}
+.input input{
+  width: 350px;
+  height: 36px;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  border:  1px solid black;
+  padding-left: 5px;
+}
+#subscribe{
+  width: 200px;
+  height: 36px;
+  margin-left: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #ffc800;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-shadow: 0px 0px 1px black;
+}
+@media screen and (max-width:465px){
+  .input input{
+      width: 280px;
+  }
+  #subscribe{
+      margin-top: 10px;
+  }
+}
+@media screen and (max-width:250px){
+  .input input{
+      width: 150px;
+  }
+  #subscribe{
+      width: 150px;
+  }
+}
+#contact{
+  margin-top: 50px;
+}
+#contact .card{
+  height: 80px;
+  margin-top: 20px;
+  box-shadow: rgba(100, 100, 111 ,0.2) 0px 7px 29px 0px;
+}
+#contact .card i{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: rgb(67 0 86);
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+#contact .card h6{
+  margin-left: 10px;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: rgb(67 0 86);
+}
+.messagebtn button{
+  margin-top: 30px;
+  width: 200px;
+  height: 33px;
+  background: transparent;
+  border: 2px solid rgb(67 0 86);
+  font-weight: bold;
+  letter-spacing: 3px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.messagebtn button:hover{
+  background-color: rgb(67 0 86);
+  color: white;
+}
+
+.font1{
+  font-family: 'Merriweather', serif;
+}
+
+.bgwhite{
+  background-color: rgba(255, 255, 255, .3);
+}
+.button{
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+
 }
