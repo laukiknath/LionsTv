@@ -1,3 +1,100 @@
+# Lions TV 📺
+
+**Lions TV** is a web-based streaming platform that allows users to browse, watch, and explore TV content seamlessly.  
+It provides a clean, modern interface for discovering shows, accessing channels, and enjoying online entertainment — accessible from any web browser.
+
+---
+
+## 📌 Features
+
+- 📺 **Watch Live & On-Demand Content** – Access TV channels and shows online.
+- 🗂️ **Content Categories** – Browse by genre, channel type, or popularity.
+- 🔍 **Search Functionality** – Find your favorite shows instantly.
+- 📱 **Responsive UI** – Works across desktop, tablet, and mobile devices.
+- ⚡ **Fast & Lightweight** – Optimized for smooth playback and quick navigation.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript, React.js
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Video Playback:** HTML5 Video / Integrated Player
+- **API Integration:** External content APIs for streaming data
+
+---
+
+## 📂 Project Structure
+LionsTV/
+├── public/
+│ ├── index.html
+│ └── favicon.ico
+├── src/
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ ├── Footer.jsx
+│ │ ├── ChannelCard.jsx
+│ │ ├── VideoPlayer.jsx
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── Channels.jsx
+│ │ ├── About.jsx
+│ ├── App.js
+│ ├── App.css
+│ ├── index.js
+└── README.md
+
+---
+
+## 🚀 How It Works
+
+1. **User opens the site** → Homepage loads with featured channels & content.
+2. **Browse or Search** → User selects a category or searches for a show.
+3. **Watch Content** → HTML5/React player streams the selected video.
+4. **Navigate Seamlessly** → Fast page transitions without reloading.
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/lionstv.git
+   Install dependencies
+
+npm install
+
+Run locally
+
+npm start
+
+Build for production
+
+npm run build
+
+## 🔑 Environment Variables
+
+To run this project, you may need to set the following in a .env file:
+
+REACT_APP_API_URL=your_api_endpoint
+REACT_APP_API_KEY=your_api_key
+
+## 🗺️ Future Improvements
+
+User login & watchlist feature.
+
+Recommendation system.
+
+Multi-language subtitle support.
+
+Chromecast and Smart TV support.
+
+## 👨‍💻 Author
+
+Laukik Nath Jagbandhu
+B.Tech Computer Engineering – Marwadi University
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
